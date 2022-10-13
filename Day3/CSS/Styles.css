@@ -1,0 +1,23 @@
+
+.chessboard {
+
+    width: 770px;
+    height: 770px;
+    border: 4px solid #070707;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+.blue {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    visibility: hidden;
+}
