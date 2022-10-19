@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* This is the start of navigation  */
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #f0d384;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+.logo{
+    float: left;
+    margin: 5px 15px;
+    height:50px;
+    width:50px;
+}
+.navTitle{
+    position: absolute;
+    left: 40%;
+    margin: 15px;
+}
+/* .navTitle h1{
+    color: #fff;
+    fon-size:20px;
+} */
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 20px 20px;
+}
+nav ul li:hover{
+    color: rgb(206, 175, 0);
+}
+nav ul li:active{
+    color:cornflowerblue;
+}
+/* This is the end of navigation  */
+
+/* This is the start of hero section */
+main{
+    width: 100%;
+    height: 500px;
+    background-color: #eedbff;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/heroimg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    color: rgb(253, 251, 251);
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* This is the end of hero section */
+/* This is the start of icon section */
+.row{
+    margin: 20px 20px;
+}
+.column{
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    padding: 35px 10px;
+    border: 1px solid #000;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* This is the end of icon section */
+
+/* This is the start of info section */
+
+.infoBox{
+    width: 50%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    margin:30px 0px ;
+    border: 1px solid #000;
+}
+.infoTextbox{
+    line-height: 200%;
+}
+.info-section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* This is the end of info section */
+/* This is the start of back to top button */
+.topButton{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 25px;
+}
+.topButton a{
+    padding:8px 15px ;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.topButton a:hover{
+    background-color: #eedbff;
+    color: #000;
+}
+.topButton a:active{
+    background-color: plum;
+    color: #000;
+}
