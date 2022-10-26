@@ -1,6 +1,151 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+    pad: 0;
+    font-family: papyrus, monospace, sans-serif
 }
+
+body {
+    position: relative;
+    background-color: #643580;
+}
+
+.hero-image {
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Day9/final project/IMG/Frankenstien_hero-IMG");
+}
+
+.about-body {
+    background-color: #7e945e;
+}
+
+.body-contact {
+    position: relative;
+    background-color: #ee6266;
+}
+
+.title {
+    font-size: xx-large;
+    text-align: center;
+    background-color: #f88c4e;
+}
+
+.title-contact {
+    font-size: xx-large;
+    text-align: center;
+    background-color: #e5e5e5;
+}
+
+.title-about {
+    font-size: xx-large;
+    text-align: center;
+    background-color: #b96d0a;
+}
+
+nav {
+    background-color: #ffb500;
+    width: 100%;
+    height: 65px;
+}
+
+.nav-contact {
+    background-color: #898890;
+}
+
+.nav-about {
+    background-color: #987f73;
+}
+
+.frankenstein {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin:0 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.dracula {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin:0 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.pumpkin {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin:0 0px;
+    padding: 5px 5px 0px 0px;
+}
+
+li {
+	list-style: none;
+}
+
+nav li {
+    text-decoration: none;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-size: large;
+    display: inline-block;
+    margin: 15px 25px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #644279;
+}
+
+a:visited {
+    color: rgb(12, 12, 12);
+}
+
+a:active {
+    color: limegreen;
+}
+
+
+.containerOne {
+    float: left;
+    width: 75%;
+}
+
+.containerTwo {
+    float: right;
+    width: 25%;
+}
+
+aside {
+    background-color: #68aa00;
+    height: 665px;
+    text-align: center;
+    border: 3px solid #000;
+}
+
+section, article {
+    height: 300px;
+    background-color: coral;
+    padding: 15px;
+    border-style: solid;
+}
+
+
+footer {
+    background-color: #5b3074;
+    height: 60px;
+    text-align: center;
+    border: 3px solid #000;
+    clear: both;
+    vertical-align: bottom;
+}
+
