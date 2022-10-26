@@ -10,7 +10,17 @@ body {
 }
 
 .hero-image {
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Day9/final project/IMG/Frankenstien_hero-IMG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Day9/final_project/IMG/Frankenstien_hero-IMG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.hero-text {
+    text-align: center;
 }
 
 .about-body {
