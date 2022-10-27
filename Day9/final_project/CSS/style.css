@@ -16,7 +16,7 @@ body {
     background-size: cover;
     position: relative;
     padding-top: 180px;
-    padding-bottom: 180px;
+    padding-bottom: 418px;
 }
 
 .contact-hero-image {
@@ -38,12 +38,22 @@ body {
 }
 
 .about-body {
-    background-color: #7e945e;
+    background-color: #44680d;
 }
 
 .body-contact {
     position: relative;
     background-color: #ee6266;
+}
+
+.about-hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Day9/final_project/IMG/purple_pumpkin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 418px;
 }
 
 .title {
@@ -165,7 +175,7 @@ section, article {
 
 
 footer {
-    background-color: #5b3074;
+    background-color: #21885dfa;
     height: 60px;
     text-align: center;
     border: 3px solid #000;
@@ -175,6 +185,15 @@ footer {
 
 .contact-footer {
     background-color: #576b7c;
+    height: 60px;
+    text-align: center;
+    border: 3px solid #000;
+    clear: both;
+    vertical-align: bottom;
+}
+
+.about-footer {
+    background-color: #643580;
     height: 60px;
     text-align: center;
     border: 3px solid #000;
@@ -211,7 +230,7 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ccc4c4;
     padding: 20px;
   }
   
