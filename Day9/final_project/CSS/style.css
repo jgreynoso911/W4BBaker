@@ -176,7 +176,7 @@ section, article {
 
 footer {
     background-color: #21885dfa;
-    height: 60px;
+    height: 100px;
     text-align: center;
     border: 3px solid #000;
     clear: both;
@@ -185,7 +185,7 @@ footer {
 
 .contact-footer {
     background-color: #576b7c;
-    height: 60px;
+    height: 100px;
     text-align: center;
     border: 3px solid #000;
     clear: both;
@@ -194,7 +194,7 @@ footer {
 
 .about-footer {
     background-color: #643580;
-    height: 60px;
+    height: 100px;
     text-align: center;
     border: 3px solid #000;
     clear: both;
@@ -268,3 +268,10 @@ input[type=text], select, textarea {
 .contact-p {
     text-align: center;
 }
+
+.footer-bottom {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    
+  }
